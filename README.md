@@ -261,7 +261,8 @@ Let's write a function to access each topic page.
 - Reads the `topics.csv` file into a new DataFrame called `new_df` using the pandas library.
 - Iterates over the rows in `new_df` and extracts the top 20 repositories from each topic.
 - uses the `import_topic_repos_to_csv()` function to export the data into a CSV file named after the topic.
-  You can also get code snippet from [here]().
+
+You can also get code snippet from [here]().
 
 ## Authors
 
