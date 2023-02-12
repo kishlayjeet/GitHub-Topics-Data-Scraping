@@ -1,5 +1,5 @@
 username,repo_name,stars,repo_url
-CSSEGISandData,COVID-19,29200,https://github.com/CSSEGISandData/COVID-19
+CSSEGISandData,COVID-19,29300,https://github.com/CSSEGISandData/COVID-19
 nytimes,covid-19-data,6900,https://github.com/nytimes/covid-19-data
 covid19india,covid19india-react,6900,https://github.com/covid19india/covid19india-react
 tokyo-metropolitan-gov,covid19,6400,https://github.com/tokyo-metropolitan-gov/covid19
@@ -15,7 +15,7 @@ github,covid19-dashboard,1600,https://github.com/github/covid19-dashboard
 ExpDev07,coronavirus-tracker-api,1600,https://github.com/ExpDev07/coronavirus-tracker-api
 soroushchehresa,awesome-coronavirus,1500,https://github.com/soroushchehresa/awesome-coronavirus
 mhdhejazi,CoronaTracker,1500,https://github.com/mhdhejazi/CoronaTracker
-neherlab,covid19_scenarios,1400,https://github.com/neherlab/covid19_scenarios
 chandrikadeb7,Face-Mask-Detection,1400,https://github.com/chandrikadeb7/Face-Mask-Detection
+neherlab,covid19_scenarios,1400,https://github.com/neherlab/covid19_scenarios
+chrismattmann,tika-python,1200,https://github.com/chrismattmann/tika-python
 pomber,covid19,1200,https://github.com/pomber/covid19
-covidpass-org,covidpass,1200,https://github.com/covidpass-org/covidpass
