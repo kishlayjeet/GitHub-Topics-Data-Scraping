@@ -1,24 +1,26 @@
 # Data Extraction from Top Repositories of Featured Topics on GitHub
 
-Data extraction is a powerful technique that allows you to retrieve valuable data from websites. In this project, we will perform web scraping on GitHub, the popular code hosting platform, to extract information about popular topics and the top repositories associated with them.
+This project focuses on web scraping and data extraction techniques to retrieve valuable information from GitHub. Specifically, we will scrape the top repositories associated with featured topics on GitHub.
 
 ## Prerequisites
 
-To perform web scraping, the following is required:
+To perform web scraping, you will need:
 
-- **A website to scrape:** In this case, we'll use GitHub as the source of information.
-- **A web scraper tool:** For this project, we'll use the Python library, BeautifulSoup.
-- **A programming language:** Python will be used in this project, but you can use any language that you're comfortable with.
+- **A website to scrape:** In this project, we will use GitHub as our data source.
+- **A web scraping tool:** We will use the Python library BeautifulSoup for web scraping.
+- **A programming language:** This project is implemented in Python, but you can use any programming language of your choice.
 
 ## Data Extraction Steps
 
-#### Step 1: Scrape the list of topics from GitHub
+### Step 1: Scrape the List of Topics from GitHub
 
-To extract the list of topics from GitHub, we'll follow these steps:
+To extract the list of featured topics from GitHub, follow these steps:
 
-1. Download the page using the `requests` library.
-2. Parse the downloaded page using the `BeautifulSoup` library.
-3. Convert the extracted information into a `Pandas` DataFrame.
+1. Download the webpage using the `requests` library.
+2. Parse the downloaded webpage using BeautifulSoup.
+3. Convert the extracted information into a Pandas DataFrame.
+
+Example DataFrame:
 
 | topic_title | topic_description                                                                            | topic_url                           |
 | :---------- | :------------------------------------------------------------------------------------------- | :---------------------------------- |
@@ -26,15 +28,17 @@ To extract the list of topics from GitHub, we'll follow these steps:
 | Ajax        | Ajax is a technique for creating interactive web applications.                               | https://github.com/topics/ajax      |
 | Algorithm   | Algorithms are self-contained sequences that carry out a variety of tasks.                   | https://github.com/topics/algorithm |
 
-#### Step 2: Get the top 20 repositories from the topic page
+### Step 2: Get the Top 20 Repositories for Each Topic
 
-To extract the top 20 repositories for each topic, we'll follow these steps:
+To extract the top 20 repositories for each topic, follow these steps:
 
-1. Access each topic through the URL stored in the CSV file created in step 1.
-2. Download each topic's page using the `requests` library.
-3. Parse the downloaded page using the `BeautifulSoup` library.
-4. Convert the extracted information into a `Pandas` DataFrame.
-5. Save the information as a CSV file.
+1. Access each topic's URL stored in the CSV file created in Step 1.
+2. Download the webpage for each topic using the `requests` library.
+3. Parse the downloaded webpage using BeautifulSoup.
+4. Convert the extracted information into a Pandas DataFrame.
+5. Save the extracted information as a CSV file.
+
+Example DataFrame:
 
 | username | repo_name         | stars | repo_url                                    |
 | :------- | :---------------- | :---- | :------------------------------------------ |
@@ -44,7 +48,7 @@ To extract the top 20 repositories for each topic, we'll follow these steps:
 
 ## Author
 
-Hi! I'm Kishlay, the creator of this project. I used web scraping and data extraction techniques to gather information from GitHub and save it in a CSV file. The project is written in Python and uses the BeautifulSoup library to parse HTML content from the website.
+Hi! I'm Kishlay, the creator of this project. I utilized web scraping and data extraction techniques to gather information from GitHub and save it in a CSV file. The project is implemented in Python and uses the BeautifulSoup library to parse HTML content from the website.
 
 ## Feedback
 
